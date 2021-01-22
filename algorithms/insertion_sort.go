@@ -6,7 +6,7 @@ func insertSort(numbers []int) []int {
 
 	for j := 1; j < len(numbers); j++ {
 		numberToInsert := numbers[j]
-		i := j - 1 // Subarray bounds
+		i := j - 1 // Subarray bounds.
 
 		//  I Must be greater than zero and must be smaller than number before it. We then can move it to the left.
 		// Change the inequality to get it in descending order
