@@ -25,7 +25,7 @@ func insertSort(numbers []int) []int {
 func main() {
 
 	// sorted := insertSort([]int{5, 2, 4, 6, 1, 3})
-	sorted := insertSort([]int{31, 41, 59, 26, 41, 58})
+	sorted := insertSort([]int{58, 31, 41, 59, 26, 41})
 
 	for _, value := range sorted {
 		fmt.Printf("%v ", value)
